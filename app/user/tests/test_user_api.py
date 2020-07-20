@@ -171,6 +171,6 @@ class PrivateUserApiTests(TestCase):
         self.assertTrue(self.user.check_password(payload['password']))
 
     def test_request_new_token_when_password_changes(self):
-        """Tests that user has to Authenticate again after password is changed"""
+        """Tests that user has to Authenticate again after change password"""
 
         pass
